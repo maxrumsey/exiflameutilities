@@ -1,0 +1,17 @@
+name: ExiFlameUtilities
+version: ${project.version}
+main: xyz.maxrumsey.exiflameutilities.ExiFlameUtilities
+api-version: "1.13"
+authors: [ExiFlame]
+description: Utilities for the WilloMc Server
+website: https://maxrumsey.xyz
+commands:
+  respawn:
+    description: Causes your character to die.
+    usage: "Usage: /<command>"
+    aliases: [die]
+    permission: exiflameutil.respawn
+  getip:
+     description: Fetches the ID of the player.
+     usage: "Usage: /<command> PlayerName"
+     permission: exiflameutil.getip

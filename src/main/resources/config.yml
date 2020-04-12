@@ -1,0 +1,6 @@
+# ExiFlameUtilities Config
+# Disable commands below, by setting them to false. Such as:
+# Respawn: false
+# Make sure to pass this file through a YAML checker, in case you have made any mistakes.
+Respawn: true
+GetIP: true
